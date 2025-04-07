@@ -1,0 +1,81 @@
+<!-- field-display.component.html -->
+<div [ngStyle]="{'padding-left': (level * 50) + 'px'}">
+    @if (field.type === 'input') {
+        <label>input</label>
+      <!-- <label>{{field.props?.label}}</label>
+      <input [placeholder]="field.props?.placeholder" [disabled]="field.props?.disabled" /> -->
+    }
+    @if (field.type === 'radio') {        
+        <label>radio</label>
+      <!-- <label>{{field.props?.label}}</label>
+      @for ( option of field.props?.options; track option.value) {
+        <input type="radio" [value]="option.value" [disabled]="field.props?.disabled" /> {{option.label}}
+      } -->
+    }
+    @if (field.type === 'select') {
+        <label>select</label>
+      <!-- <label>{{field.props?.label}}</label> -->
+      <!-- <select [disabled]="field.props?.disabled">
+        @for ( option of field.props?.options; track option.value) {
+          <option [value]="option.value">{{option.label}}</option>
+        }
+      </select> -->
+    }
+    @if (field.type === 'gaigCustomCheckgroup') {
+        <label>gaigCustomCheckgroup</label>
+    <!--<label>{{field.props?.label}}</label>
+        @for ( option of field.props?.options; track option.value) {
+        <input type="checkbox" [value]="option.value" [disabled]="field.props?.disabled" /> {{option.label}}
+      } -->
+    }
+    @if (field.type === 'gaigRadioQuestion') {
+        <!-- <label>gaigRadioQuestion</label> -->
+      <label>Gaig Radio Question</label> 
+       @for ( option of field.props?.options; track option.value) {
+        <input type="radio" [value]="option.value" [disabled]="field.props?.disabled" /> {{option.value}}
+      }
+    }
+    @if (field.type === 'gaigInputText') {
+        <label>gaigInputText</label>
+      <!-- <label>{{field.props?.label}}</label> -->
+      <!-- <input type="text" [placeholder]="field.props?.placeholder" [disabled]="field.props?.disabled" /> -->
+    }
+    @if (field.type === 'gaigCustomInputTextarea') {
+        <label>gaigCustomInputTextarea</label>
+    }
+    @if (field.type === 'checkbox') {
+        <label>checkbox</label>
+    }
+    @if (field.type === 'repeatSection') {
+        <label>repeatSection</label>
+      <!-- <label>{{field.props?.label}}</label>
+      @for ( item of field.fieldArray.fieldGroup; track item.key) {
+        <app-field-display [field]="item" [level]="level + 1"></app-field-display>
+      } -->
+    }
+    @if (field.type === 'formly-group') {
+      <label>Group </label>
+      @for ( childField of $any(field).fieldGroup; track childField) {
+        <app-field-display [field]="childField" [level]="level + 1"></app-field-display>
+      }
+    }
+    @if (field.type === 'section') {
+      <label>{{field.props?.label}}</label>
+      @for ( childField of $any(field).fieldGroup; track childField) {
+        <app-field-display [field]="childField" [level]="level + 1"></app-field-display>
+      }
+    }
+    @if (field.type === 'tabs') {
+        <label>tabs</label>
+      <label>{{field.props?.label}}</label>
+      @for ( tab of $any(field).fieldGroup; track tab) {
+        <div class="tab">
+            <label>
+                {{tab.props?.label}}
+                <app-field-display [field]="tab" [level]="level + 1"></app-field-display>
+            </label>
+        </div>
+      }
+    }
+  </div>
+  

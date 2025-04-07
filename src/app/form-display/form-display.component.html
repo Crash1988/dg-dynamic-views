@@ -1,0 +1,9 @@
+<div>
+  <div [ngStyle]="{ 'padding-left': '0px' }">
+    @for ( field of form.fieldGroup; track form.fieldGroup) {
+    <app-field-display [field]="field" [level]="0"></app-field-display>
+    <!-- <option [value]="option.value">{{option.label}}</option> -->
+    }
+    <ng-container *ngFor="let field of form.fieldGroup"> </ng-container>
+  </div>
+</div>
