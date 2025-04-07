@@ -1,0 +1,900 @@
+{
+    "expressions": [],
+    "fieldGroupClassName": "row",
+    "fieldGroup": [
+      {
+        "type": "tabs",
+        "fieldGroup": [
+          {
+            "expressions": [],
+            "fieldGroupClassName": "row",
+            "fieldGroup": [
+                    {
+          "className": "col-12",
+          "type": "input",
+          "expressions": {
+            "hide": "!model?.companyInfo?.last12MonthsChangeOwnershipPercentage"
+          },
+          "key": "companyName",
+          "props": {
+            "appearance": "outline",
+            "required": true,
+            "label": "Name of the company",
+            "placeholder": "",
+            "disabled": false,
+            "hidden": true
+          },
+          "hooks": {},
+          "modelOptions": {},
+          "validation": {
+            "messages": {}
+          },
+          "resetOnHide": true,
+          "wrappers": [
+            "form-field"
+          ],
+          "expressionProperties": {},
+          "id": "formly_4020_input_companyName_0",
+          "hide": true
+        },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              }
+            ],
+            "wrapper": "div",
+            "props": {
+              "label": "General Info"
+            },
+            "id": "formly_54___0",
+            "hooks": {},
+            "modelOptions": {},
+            "validation": {
+              "messages": {}
+            },
+            "resetOnHide": true,
+            "type": "formly-group",
+            "wrappers": [
+              "twoColumnsWrapper"
+            ],
+            "expressionProperties": {}
+          },
+          {
+            "expressions": [],
+            "fieldGroupClassName": "row",
+            "fieldGroup": [
+              {
+                "className": "col-6 pr-2",
+                "key": "investmentStrategies",
+                "type": "gaigCustomCheckgroup",
+                "props": {
+                  "appearance": "outline",
+                  "label": "Select all the Investment Strategies of the current and anticipated future funds:",
+                  "hideFieldUnderline": true,
+                  "floatLabel": "always",
+                  "color": "primary",
+                  "options": [
+                    {
+                      "value": "privateEquity",
+                      "label": "Private Equity"
+                    },
+                    {
+                      "value": "hedgeFunds",
+                      "label": "Hedge Funds"
+                    },
+                    {
+                      "value": "ventureCapital",
+                      "label": "Venture Capital"
+                    },
+                    {
+                      "value": "realEstate",
+                      "label": "Real Estate"
+                    },
+                    {
+                      "value": "creditDebt",
+                      "label": "Credit/Debt"
+                    },
+                    {
+                      "value": "fundofFunds",
+                      "label": "Fund of Funds"
+                    }
+                  ],
+                  "disabled": false,
+                  "placeholder": ""
+                },
+                "id": "formly_193_multicheckbox_multiCheckBox123_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "multiCheckBox1234",
+                "type": "gaigCustomCheckgroup",
+                "props": {
+                  "appearance": "outline",
+                  "label": "Select Coverage lines being sought?",
+                  "hideFieldUnderline": true,
+                  "floatLabel": "always",
+                  "color": "primary",
+                  "options": [
+                    {
+                      "value": "do",
+                      "label": "EO"
+                    },
+                    {
+                      "value": "eo",
+                      "label": "EO"
+                    },
+                    {
+                      "value": "EPL",
+                      "label": "EPL"
+                    },
+                    {
+                      "value": "fid",
+                      "label": "FID"
+                    }
+                  ],
+                  "disabled": false,
+                  "placeholder": ""
+                },
+                "id": "formly_193_multicheckbox_multiCheckBox123_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              }
+            ],
+            "wrapper": "div",
+            "props": {
+              "label": "Asset Management General Info"
+            },
+            "id": "formly_54___0",
+            "hooks": {},
+            "modelOptions": {},
+            "validation": {
+              "messages": {}
+            },
+            "resetOnHide": true,
+            "type": "formly-group",
+            "wrappers": [
+              "twoColumnsWrapper"
+            ],
+            "expressionProperties": {}
+          },
+          {
+            "expressions": [],
+            "fieldGroupClassName": "row",
+            "fieldGroup": [
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pr-2",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              },
+              {
+                "className": "col-6 pl-2 bl-1",
+                "key": "gaigRadioQuestion",
+                "type": "gaigRadioQuestion",
+                "props": {
+                  "label": "custom field",
+                  "placeholder": "test",
+                  "disabled": false,
+                  "appearance": "outline",
+                  "sectionIdentifier": "gaigRadioQuestionIdentifier"
+                },
+                "id": "formly_129_gaigInputText_test_0",
+                "hooks": {},
+                "modelOptions": {},
+                "validation": {
+                  "messages": {}
+                },
+                "resetOnHide": true,
+                "wrappers": [],
+                "expressions": {},
+                "expressionProperties": {}
+              }
+            ],
+            "wrapper": "div",
+            "props": {
+              "label": "Claims"
+            },
+            "id": "formly_54___0",
+            "hooks": {},
+            "modelOptions": {},
+            "validation": {
+              "messages": {}
+            },
+            "resetOnHide": true,
+            "type": "formly-group",
+            "wrappers": [
+              "twoColumnsWrapper"
+            ],
+            "expressionProperties": {}
+          }
+        ],
+        "props": {},
+        "id": "formly_209_tabs__0",
+        "hooks": {},
+        "modelOptions": {},
+        "validation": {
+          "messages": {}
+        },
+        "resetOnHide": true,
+        "wrappers": [],
+        "expressions": {},
+        "expressionProperties": {}
+      }
+    ],
+    "wrapper": "div",
+    "id": "formly_54___0",
+    "hooks": {},
+    "modelOptions": {},
+    "validation": {
+      "messages": {}
+    },
+    "resetOnHide": true,
+    "type": "formly-group",
+    "expressionProperties": {}
+  }

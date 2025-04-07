@@ -1,7 +1,7 @@
 <!-- field-display.component.html -->
-<div [ngStyle]="{'padding-left': (level * 50) + 'px'}">
+<div [ngStyle]="{'padding-left': (level * 20) + 'px'}">
     @if (field.type === 'input') {
-        <label>input</label>
+        <app-input></app-input>
       <!-- <label>{{field.props?.label}}</label>
       <input [placeholder]="field.props?.placeholder" [disabled]="field.props?.disabled" /> -->
     }
@@ -54,10 +54,13 @@
       } -->
     }
     @if (field.type === 'formly-group') {
-      <label>Group </label>
-      @for ( childField of $any(field).fieldGroup; track childField) {
-        <app-field-display [field]="childField" [level]="level + 1"></app-field-display>
-      }
+      <div>
+
+        <label>Group </label>
+        @for ( childField of $any(field).fieldGroup; track childField) {
+          <app-field-display [field]="childField" [level]="level + 1"></app-field-display>
+        }
+      </div>
     }
     @if (field.type === 'section') {
       <label>{{field.props?.label}}</label>
